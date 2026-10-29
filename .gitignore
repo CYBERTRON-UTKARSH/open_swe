@@ -1,0 +1,29 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# agent workspaces (user uploads)
+workspace/
+
+# node / frontend
+node_modules/
+dist/
+.vite/
+open-swe-frontend/node_modules/
+open-swe-frontend/dist/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

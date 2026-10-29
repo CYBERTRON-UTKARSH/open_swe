@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+.git
+.pytest_cache/
+workspace/
+open-swe-frontend/
